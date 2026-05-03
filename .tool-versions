@@ -1,0 +1,4 @@
+gum      latest
+k3sup    0.13.6
+kubectl  1.35
+envsubst latest
