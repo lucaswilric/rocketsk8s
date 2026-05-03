@@ -16,13 +16,14 @@ A gently-opinionated starter kit for running Kubernetes on smaller hardware.
 
 ## Preparing a host to add to (or start!) the cluster
 
-:::!info[Assumptions & limitations]
-I've used this procedure to set up hosts running [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/) and [Armbian](https://www.armbian.com/).
-
-I am running Manjaro Linux, and the scripts here have been tested on that, but nothing else.
-
-As a result, the scripts contain some assumptions that I made because I could get away with it, and because they helped me make fewer mistakes. For example, limiting the hardware addresses you can select from `/dev`.
-:::
+> [!INFO]
+> **Assumptions & limitations**
+>
+> I've used this procedure to set up hosts running [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/) and [Armbian](https://www.armbian.com/).
+>
+> I am running Manjaro Linux, and the scripts here have been tested on that, but nothing else.
+>
+> As a result, the scripts contain some assumptions that I made because I could get away with it, and because they helped me make fewer mistakes. For example, limiting the hardware addresses you can select from `/dev`.
 
 ### You will need
 
